@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" type="text/css" href="../rsschool-cv/style.css">
+    <link rel="stylesheet" href="libs/styles/atom-one-light.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="left__column">
+                <figure class="photo">
+                    <img src="../rsschool-cv/assets/images/photo.png" class="img" alt="me">
+                </figure>
+            </div>
+            <div class="right__column navigation">
+                <h1 class="title1">Valeriya KS </h1>
+                <h2 class="title2"> <b>Frontend Developer</b></h2>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li><a href="#contacts"> Contact info</a></li>
+                        <li><a href="#skills"> Professional skills</a></li>
+                        <li><a href="#profile"> Profile</a></li>
+                        <li> <a href="#languages"> Languages</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <div class="left__column">
+                <section class="contact__info" id="contacts"> 
+                    <h3 class="title2">Contact Info</h3>
+                    <ul>
+                        <li class="phone">Tel: <a href="tel:+79994317926">+79994317926</a></li>
+                        <li class="email"> E-mail: <a href="mailto:valksit@mail.ru">valksit@mail.ru</a> </li>
+                        <li class="telegram">Telegram: <a href="https://t.me/just_val_ks">@just_val_ks</a></li>
+                   </ul>
+                </section>
+                <section class="skills__info" id="skills">  
+                    <h3 class="skills__title"> Professional skills</h3>
+                    <ul class="skills">
+                         <li>Git, GitHub</li>
+                         <li>HTML5</li>
+                         <li>CSS3</li>
+                         <li>JavaScript</li>
+                         <li>VS Code</li>
+                         <li>NPM</li>
+                         <li>Figma</li>
+                    </ul>
+                </section>
+                <section class="languages" id="languages">
+                    <h3 class="title2">Languages</h3>
+                     <ul>
+                         <li class="russian">Russian: native</li>
+                         <li class="english">English: B2 (IELTS 6.5)</li>
+                         <li class="french">French: A2</li>
+                    </ul>
+                </section> 
+            </div>
+            <div class="right__column">
+                <section class="profile" id="profile">
+                    <h2 class="title2">Profile</h2>
+                    <p> Highly motivated student of RS School with strong analytical skills. 
+                   <br><br> My objective is to become a front-end developer and to work in a challenging and dynamic environment.
+                   </p>
+                </section>
+                <section class="code">
+                    <h2 class="title2">Code Example</h2>
+                    <pre class="code__example"> <code class="html">
+ //function checks if the string is Isogram
+ function isIsogram(str) {
+  return !str.match(/([a-z]).*\1/i);
+ }              
+                </code>
+                </pre>
+                </section>
+                <section class="education">
+                    <h2 class="title2">Educational background</h2>
+                    <div class="studying__years">
+                        <h5>2015-2018</h5>
+                    </div>
+                    <p class="univercity">Saint-Petersburg State Univercity of Civil Aviation</p>
+                </section>
+                <section class="interest"> 
+                    <h2 class="title2">Interest</h2>
+                    <div class="interest__container" >
+                        <div class="row__interest">
+                              <p> Learning languages</p> 
+                              <p> Reading</p>
+                        </div> 
+                       <div class="row__interest">
+                           <p>  Dancing </p> 
+                          <p> Traveling</p>
+                      </div> 
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__inner">
+                <ul class="footer__links">
+                    <li class="footer__link">
+                        <a href="https://github.com/val-ks"><img src="assets/icons/Github.png" alt="github__icon" width="30" height="30"></a>
+                    </li>
+                    <li class="footer__link">
+                        <a href="https://rs.school/js/"><img src="assets/icons/rs_school_js.svg" alt="rsschool__icon" width="50"></a>
+                    </li>  
+                </ul>
+                <div class="footer__date">
+                    <time datetime="2021">2021</time>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="libs/highlight.js"></script>
+    <script>hljs.highlightAll();</script>
+</body>
+</html>
