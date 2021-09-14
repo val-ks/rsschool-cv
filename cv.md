@@ -1,4 +1,4 @@
-# Val KS
+# Valeriya KS
 ---
 ## Junior Frontend Developer
 ---
