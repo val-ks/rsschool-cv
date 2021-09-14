@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
     <link rel="stylesheet" type="text/css" href="../rsschool-cv/style.css">
+    <link rel="stylesheet" href="libs/styles/atom-one-light.min.css">
 </head>
 <body>
     <div class="container">
@@ -15,14 +16,22 @@
                     <img src="../rsschool-cv/assets/images/photo.png" class="img" alt="me">
                 </figure>
             </div>
-            <div class="right__column">
+            <div class="right__column navigation">
                 <h1 class="title1">Valeriya KS </h1>
                 <h2 class="title2"> <b>Frontend Developer</b></h2>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li><a href="#contacts"> Contact info</a></li>
+                        <li><a href="#skills"> Professional skills</a></li>
+                        <li><a href="#profile"> Profile</a></li>
+                        <li> <a href="#languages"> Languages</a></li>
+                    </ul>
+                </nav>
             </div>
         </header>
         <main class="main">
             <div class="left__column">
-                <section class="contact__info"> 
+                <section class="contact__info" id="contacts"> 
                     <h3 class="title2">Contact Info</h3>
                     <ul>
                         <li class="phone">Tel: <a href="tel:+79994317926">+79994317926</a></li>
@@ -30,7 +39,7 @@
                         <li class="telegram">Telegram: <a href="https://t.me/just_val_ks">@just_val_ks</a></li>
                    </ul>
                 </section>
-                <section class="skills__info">  
+                <section class="skills__info" id="skills">  
                     <h3 class="skills__title"> Professional skills</h3>
                     <ul class="skills">
                          <li>Git, GitHub</li>
@@ -42,7 +51,7 @@
                          <li>Figma</li>
                     </ul>
                 </section>
-                <section class="languages">
+                <section class="languages" id="languages">
                     <h3 class="title2">Languages</h3>
                      <ul>
                          <li class="russian">Russian: native</li>
@@ -52,7 +61,7 @@
                 </section> 
             </div>
             <div class="right__column">
-                <section class="profile">
+                <section class="profile" id="profile">
                     <h2 class="title2">Profile</h2>
                     <p> Highly motivated student of RS School with strong analytical skills. 
                    <br><br> My objective is to become a front-end developer and to work in a challenging and dynamic environment.
@@ -60,11 +69,12 @@
                 </section>
                 <section class="code">
                     <h2 class="title2">Code Example</h2>
-                    <pre class="code__example">
- //function checks if the implemented string is Isogram
+                    <pre class="code__example"> <code class="html">
+ //function checks if the string is Isogram
  function isIsogram(str) {
   return !str.match(/([a-z]).*\1/i);
- }
+ }              
+                </code>
                 </pre>
                 </section>
                 <section class="education">
@@ -105,5 +115,8 @@
             </div>
         </footer>
     </div>
+    
+    <script src="libs/highlight.js"></script>
+    <script>hljs.highlightAll();</script>
 </body>
 </html>
