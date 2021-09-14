@@ -13,11 +13,11 @@
 ### Front-end developer
 ---
 ## Professional Skills
-### * Git, GitHub
-### * HTML5
-### * CSS3
-### * JavaScript
-### * VS Code
+* Git, GitHub
+* HTML5
+* CSS3
+* JavaScript
+* VS Code
 ---
 ## Languages
 ### 1. Russian (native)
