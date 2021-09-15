@@ -44,6 +44,7 @@
 }
 
 .nav__list {
+    position: relative;
     text-align: right;
 }
 
@@ -52,6 +53,7 @@
 }
 
 .header__photo {
+    position: relative;
     margin: 20px;
 }
 
