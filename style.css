@@ -38,13 +38,22 @@
 
 .header {
     display: flex;
-    position: relative;
     width: 100%;
     border-bottom: 1px solid rgba(84, 6, 228, 0.2);
 }
 
+.navigation {
+    position: relative;
+}
+
+.nav {
+    position:absolute;
+    padding-left: 250px;
+    padding-top: 150px;
+}
+
 .nav__list {
-    position: absolute;
+    position: relative;
     text-align: right;
 }
 
@@ -54,18 +63,18 @@
 
 .header__photo {
     position: relative;
-    margin: 20px;
 }
 
-.header__photo .photo {
+.photo {
     position: relative;
     width: 200px;
     height: 200px;
     border-radius: 50%;
     overflow: hidden;
+    margin: 20px 0 20px 10px; 
 }
 
-.header__photo .photo img {
+ .photo img {
     position: absolute;
     top: 0;
     left: 0;
@@ -75,7 +84,6 @@
 }
 
 .title1 {
-    margin-top: 20px;
     font-size: 45px;
     text-transform: capitalize;
     text-align: left;
