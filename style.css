@@ -51,18 +51,19 @@
     color: #333333;
 }
 
-.photo {
-    display: flex;
-    justify-content: center;
+.header__photo {
+    margin: 20px;
+}
+
+.header__photo .photo {
     position: relative;
-    margin: 50px auto;
-    height: 200px;
     width: 200px;
+    height: 200px;
     border-radius: 50%;
     overflow: hidden;
 }
 
-.photo img {
+.header__photo .photo img {
     position: absolute;
     top: 0;
     left: 0;
