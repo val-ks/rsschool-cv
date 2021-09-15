@@ -11,6 +11,7 @@
 .body {
     width: 100%;
     background: rgba(173, 216, 230, 0.986);
+    min-height: 100vh;
 }
 
 .container {
