@@ -11,6 +11,7 @@
 .body {
     width: 100%;
     background: rgba(173, 216, 230, 0.986);
+    min-height: 100vh;
 }
 
 .container {
@@ -37,18 +38,22 @@
 
 .header {
     display: flex;
-    position: relative;
     width: 100%;
     border-bottom: 1px solid rgba(84, 6, 228, 0.2);
 }
 
 .navigation {
-   
+    position: relative;
+}
+
+.nav {
+    position:absolute;
+    padding-left: 250px;
+    padding-top: 150px;
 }
 
 .nav__list {
-    padding-top: 50px;
-    padding-left: 250px;
+    position: relative;
     text-align: right;
 }
 
@@ -56,18 +61,20 @@
     color: #333333;
 }
 
-.photo {
-    display: flex;
-    justify-content: center;
+.header__photo {
     position: relative;
-    margin: 50px auto;
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    overflow: hidden;
 }
 
-.photo img {
+.photo {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 20px 0 20px 10px; 
+}
+
+ .photo img {
     position: absolute;
     top: 0;
     left: 0;
@@ -77,7 +84,6 @@
 }
 
 .title1 {
-    margin-top: 20px;
     font-size: 45px;
     text-transform: capitalize;
     text-align: left;
