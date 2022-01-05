@@ -9,6 +9,7 @@
 }
 
 .body {
+    
     width: 100%;
     background: rgba(173, 216, 230, 0.986);
     min-height: 100vh;
@@ -16,8 +17,8 @@
 
 .container {
     max-width: 800px;
-    margin: 0 auto;
-    background: rgba(246, 246, 248, 0.99);
+    margin: 15px auto;
+    background: rgba(218, 218, 221, 0.99);
 }
 
 .left__column {
@@ -104,7 +105,7 @@
     display: flex;
 }
 
-.contact__info h3 {
+.left__title {
     margin: 20px 0;
     color: rgba(248, 238, 219, 0.945);
     text-transform: uppercase;
@@ -112,54 +113,19 @@
     letter-spacing: 1px;
 }
 
-.contact__info ul {
+.left__list {
     position: relative;
 }
 
-.contact__info ul li {
-    position: relative;
-     margin: 10px 0;
-    cursor: pointer;
-    color: rgba(255, 255, 255, 0.99);
-    font-weight: 300;
-}
-
-.skills__info h3 {
-    margin: 20px 0;
-    color: rgba(248, 238, 219, 0.945);
-    text-transform: uppercase;
-    font-weight: 600px;
-}
-
-.skills__info ul {
-    position: relative;
-}
-
-.skills__info ul li {
+.left__item {
     position: relative;
      margin: 10px 0;
     color: rgba(255, 255, 255, 0.99);
     font-weight: 300;
 }
 
-.languages h3 {
-    margin-bottom: 20px 0;
-    color: rgba(248, 238, 219, 0.945);
-    text-transform: uppercase;
-    font-weight: 600px;
-    letter-spacing: 1px;
-}
 
-.languages ul {
-    position: relative;
-}
 
-.languages ul li {
-    position: relative;
-     margin: 10px 0;
-    color: rgba(255, 255, 255, 0.99);
-    font-weight: 300;
-}
 .title2 { 
     margin-bottom: 10px;
     color: rgba(43, 29, 95, 1);
@@ -187,32 +153,30 @@ p {
 
 .education {
     position: relative;
-    margin-top: 10px;
-    color: #333333;
-    font-weight: 300;
-}
-
-.interest {
-    position: relative;
     margin-top: 20px;
     color: #333333;
     font-weight: 300;
-   padding-bottom: 50px;
 }
 
-.interest__container {
+.view__project {
+    display: block;
+    text-decoration: none;
+    color: #030303;
+    
+}
+
+.project__title {
+    margin-bottom: 5px;
+}
+
+.project {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
 }
 
-.row__interest {
-    width: 50%;
-}
-
-.row__interest p {
-    margin-bottom: 20px;
-    color: #333333;
-    font-weight: 300;
+.museum__project {
+    width: 100%;
+    margin-bottom: 15px;
 }
 
 .footer {
